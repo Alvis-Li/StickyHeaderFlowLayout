@@ -1,7 +1,8 @@
 # StickyHeaderFlowLayout
 StickyHeaderFlowLayout 对CSStickyHeaderFlowLayout 的微调,当修改collectionView的contentInset后,headerView悬浮的位置也会变化,无法在顶部悬浮,所以添加偏移量,使得悬浮位置可控
 
-`_collectionView.contentInset = UIEdgeInsetsMake(100, 0, 0, 0);_customLayout.offset = -100;`
+`_collectionView.contentInset = UIEdgeInsetsMake(100, 0, 0, 0);
+_customLayout.offset = -100;`
 
 # CSStickyHeaderFlowLayout
 
